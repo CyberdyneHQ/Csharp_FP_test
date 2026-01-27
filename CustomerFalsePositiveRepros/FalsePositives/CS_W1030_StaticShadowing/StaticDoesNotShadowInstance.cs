@@ -1,3 +1,4 @@
+//trigger fp
 namespace CustomerFalsePositiveRepros.FalsePositives.CS_W1030_StaticShadowing
 {
     // Rule: CS-W1030 - Variable shadows field

@@ -1,3 +1,4 @@
+//trigger fp
 namespace CustomerFalsePositiveRepros.FalsePositives.CS_R1093_EmptyVirtualMethods
 {
     // Rule: CS-R1093 - Method is empty
