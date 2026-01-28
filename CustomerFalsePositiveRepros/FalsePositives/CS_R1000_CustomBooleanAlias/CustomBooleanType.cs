@@ -1,3 +1,4 @@
+//trigger
 namespace CustomerFalsePositiveRepros.FalsePositives.CS_R1000_CustomBooleanAlias
 {
     // Rule: CS-R1000 - Suggest bool over Boolean

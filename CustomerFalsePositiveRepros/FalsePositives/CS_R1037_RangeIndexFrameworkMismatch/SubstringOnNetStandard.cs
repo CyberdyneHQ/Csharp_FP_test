@@ -1,3 +1,4 @@
+//trigger
 namespace CustomerFalsePositiveRepros.FalsePositives.CS_R1037_RangeIndexFrameworkMismatch
 {
     // Rule: CS-R1037 - Suggest range operator

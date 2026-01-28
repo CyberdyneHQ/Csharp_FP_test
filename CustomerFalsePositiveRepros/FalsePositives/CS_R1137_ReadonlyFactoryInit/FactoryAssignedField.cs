@@ -1,3 +1,4 @@
+//trigger
 namespace CustomerFalsePositiveRepros.FalsePositives.CS_R1137_ReadonlyFactoryInit
 {
     // Rule: CS-R1137 - Field should be readonly
