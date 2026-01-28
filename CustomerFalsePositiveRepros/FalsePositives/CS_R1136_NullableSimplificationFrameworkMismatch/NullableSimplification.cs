@@ -1,4 +1,3 @@
-//trigger fp
 namespace CustomerFalsePositiveRepros.FalsePositives.CS_R1136_NullableSimplificationFrameworkMismatch
 {
     // Rule: CS-R1136 - Nullable expression can be simplified
