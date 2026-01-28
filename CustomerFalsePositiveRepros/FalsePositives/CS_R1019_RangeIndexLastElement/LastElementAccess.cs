@@ -1,3 +1,4 @@
+//trigger
 namespace CustomerFalsePositiveRepros.FalsePositives.CS_R1019_RangeIndexLastElement
 {
     // Rule: CS-R1019 - Suggest ^1 index

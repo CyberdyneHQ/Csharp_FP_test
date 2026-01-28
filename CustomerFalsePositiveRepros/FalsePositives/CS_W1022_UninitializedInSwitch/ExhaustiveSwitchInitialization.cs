@@ -1,3 +1,4 @@
+//trigger
 // DeepSource Rule: CS-W1022 - Variable is uninitialized
 //
 // The analyzer believes 'result' might be used without being assigned.
