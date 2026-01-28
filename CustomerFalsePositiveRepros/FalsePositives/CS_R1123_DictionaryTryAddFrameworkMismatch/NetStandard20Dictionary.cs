@@ -1,4 +1,3 @@
-//trigger fp
 using System.Collections.Generic;
 
 namespace CustomerFalsePositiveRepros.FalsePositives.CS_R1123_DictionaryTryAddFrameworkMismatch
