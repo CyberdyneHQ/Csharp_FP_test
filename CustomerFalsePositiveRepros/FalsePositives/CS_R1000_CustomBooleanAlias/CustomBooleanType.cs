@@ -7,11 +7,11 @@ namespace CustomerFalsePositiveRepros.FalsePositives.CS_R1000_CustomBooleanAlias
         public Boolean(bool v) { }
     }
 
-    public class Usage
+    internal class Usage
     {
         public void Create()
         {
-            var b = new Boolean(false);
+            _ = new Boolean(false);
         }
     }
 }

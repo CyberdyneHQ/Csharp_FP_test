@@ -6,9 +6,15 @@ namespace CustomerFalsePositiveRepros.FalsePositives.CS_W1030_StaticShadowing
     {
         private string name;
 
+        public Logger(string n)
+        {
+            this.name = n;
+        }
+
         public static void Init()
         {
             string name = "static"; // not shadowing instance field
+            _ = name;
         }
     }
 }

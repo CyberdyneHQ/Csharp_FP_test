@@ -4,15 +4,20 @@ namespace CustomerFalsePositiveRepros.FalsePositives.CS_R1137_ReadonlyFactoryIni
     // False positive: Field is mutated by static factory after construction.
     public class Config
     {
-        public bool ShouldSave;
+        private bool shouldSave;
 
         private Config() { }
 
         public static Config LoadOrDefault()
         {
             var c = new Config();
-            c.ShouldSave = true; // assigned post-construction
+            SetDefaults(c);
             return c;
+        }
+
+        private static void SetDefaults(Config c)
+        {
+            c.shouldSave = true; // assigned post-construction, not in constructor
         }
     }
 }
