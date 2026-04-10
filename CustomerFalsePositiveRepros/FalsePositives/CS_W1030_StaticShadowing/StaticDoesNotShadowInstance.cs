@@ -11,6 +11,11 @@ namespace CustomerFalsePositiveRepros.FalsePositives.CS_W1030_StaticShadowing
             this.name = n;
         }
 
+        public void SetName(string n)
+        {
+            this.name = n; // non-constructor assignment prevents CS-R1137
+        }
+
         public static void Init()
         {
             string name = "static"; // not shadowing instance field
